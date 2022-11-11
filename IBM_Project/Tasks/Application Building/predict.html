@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+<style>
+body{
+background-image:url("static/image/c.png");
+background-repeat:no-repeat;
+background-size:cover;
+backgroud-attachment:fixed;
+height:700px;
+width:1000px;
+}
+#a{
+color:skyblue;
+font-size:70px;
+padding-top:300px;
+padding-left:300px;
+}
+#b{
+margin-left:250px;
+border:5px black solid;
+height:50px;
+width:200px;
+font-size:50px;
+display:none;
+}
+#c{
+margin-left:330px;
+
+height:40px;
+width:200px;
+font-size:20px;
+}
+.label{
+  background:white;
+  margin-left:330px;
+ 
+  height:35px;
+  width:200px;
+  font-size:30px;
+  display: block;
+  text-align:center;
+
+}
+.preview{
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+}
+
+#previewimg{
+width:200px;
+height:200px;
+margin-bottom:20px;
+margin-right:140px;
+display:none;
+
+}
+</style>
+<script>
+  function showPreview(event){
+  if(event.target.files.length > 0){
+    var src = URL.createObjectURL(event.target.files[0]);
+    var preview = document.getElementById("previewimg");
+    preview.src = src;
+    preview.style.display = "block";
+  }
+  }
+  
+function validateImage(event){
+  event.preventDefault();
+  element = document.querySelector("#b");
+  if(element.files.length==0){
+     alert("Please Upload an image");
+  }
+  else{
+        const form = document.querySelector('form');
+        form.submit();
+  }
+  
+}
+
+
+</script>
+    <body>
+    <h1 id ="a" >UPLOAD</h1>
+         <form action ="predict" method = "POST" enctype = "multipart/form-data">
+         <label class='label' for='b'>Select file</label>
+         <input id="b" type = "file" name = "file"  onchange='showPreview(event);'/><br>
+         <div class='preview'><img id='previewimg' /></div>
+         <input id="c" type = "submit"  value="RECOGNIZE"  onclick='validateImage(event);'/>
+         </form>
+   </body>
+   </head>
+</html>
