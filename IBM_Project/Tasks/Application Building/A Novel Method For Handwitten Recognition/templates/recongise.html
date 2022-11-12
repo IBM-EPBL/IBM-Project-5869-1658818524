@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/recongise_style.css')}}">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.0/jquery.bootstrap-growl.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Digit Recognisation</title>
+  </head>
+  <body>
+    <div class="nav1">
+      <ul>
+          <li><a class="n" href="index">Home</a></li>
+          <li><a class="n" href="recognise">Recognise</a></li>
+    </ul>
+    </div>
+    <div class="main">
+      <h1>Digit Recognisation</h1><br>
+      <input type="file" id="myfile" accept="image/png, image/jpeg" onchange="updateImage(event);">
+      <p class="note">Accepted Format : jpg/jpeg/png files</p><br>
+      <button type="button" class="btn btn-success" onclick="predict();">Recognise</button>
+    </div>
+    <div class="output">
+      <div class="img1" id="image1">
+        <h2>Uploaded Image</h2><br>
+        <img src="{{url_for('static',filename='img/loading_pic.jpg')}}" id="img1" alt="Uploaded image" >
+      </div>
+      <div class="ans">
+        <span class="result1" id="result1"> Recognised Digit: <span class="result-digit" id="result-digit"></span></span>
+        <div id="chart-div1">
+          <canvas id="myChart1" ></canvas>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script src="{{ url_for('static',filename='js/script.js') }}"></script>
+
+</html>

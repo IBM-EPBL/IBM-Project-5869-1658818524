@@ -1,0 +1,43 @@
+body
+{
+  background-image: url("https://img.freepik.com/premium-vector/colorful-playful-numbers-left-side-border-background-perfect-educational-presentation-template_91515-255.jpg?w=2000");
+}
+
+.main
+{
+  padding: 100px;
+  margin-left: 350px;
+  margin-bottom: 10s00px;
+}
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+li {
+  display: inline;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: red;
+
+}
+.nav
+{
+  float: right;
+}
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+.tip{
+  font-size: 30px;
+}
