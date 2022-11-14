@@ -1,18 +1,3 @@
-<b>Domain:</b> Artificial Intelligence
-<br>
-<b>Project:</b> A Novel Method for Handwritten Digit Recognition System
-<br>
-<b>Batch:</b> B1-1M3E
-<br>
-<b>Team Id:</b> PNT2022TMID03361
-<br>
-<b>Members:</b>
-<br>
-1. Sanju S
-2. Sandeep K
-3. Vaisak P
-4. Girish Sairam V
-
 <br>
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" align="center" alt="drawing" width="200" />
@@ -40,6 +25,22 @@
 <br>
 
 
+
+<b>Domain:</b> Artificial Intelligence
+<br>
+<b>Project:</b> A Novel Method for Handwritten Digit Recognition System
+<br>
+<b>Batch:</b> B1-1M3E
+<br>
+<b>Team Id:</b> PNT2022TMID03361
+<br>
+<b>Members:</b>
+<br>
+1. Sanju S
+2. Sandeep K
+3. Vaisak P
+4. Girish Sairam V
+
 <h2>
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" width="25" height="25" />
   Abstract
@@ -57,6 +58,5 @@
   Therefore, this project aims to address these problems and provide a novel handwritten digit recognition system.</p>
 <br>
 
-<h2> 
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="25" height="25" /> Assignments 
-</h2>
+
+
