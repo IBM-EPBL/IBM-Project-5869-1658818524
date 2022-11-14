@@ -1,13 +1,11 @@
-IBM-Project
+<b>Domain:</b> Artificial Intelligence
 <br>
-Domain : Artificial Intelligence
+<b>Project:</b> A Novel Method for Handwritten Digit Recognition System
 <br>
-Project: A Novel Method for Handwritten Digit Recognition System
+<b>Batch:</b> B1-1M3E
 <br>
-Batch: B1-1M3E
-<br>
-Team Id: PNT2022TMID03361
-Members:
+<b>Team Id:</b> PNT2022TMID03361
+<b>Members:</b>
 <br>
 1. Sanju S
 2. Sandeep K
