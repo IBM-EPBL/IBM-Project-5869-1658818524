@@ -57,8 +57,6 @@
   Therefore, this project aims to address these problems and provide a novel handwritten digit recognition system.</p>
 <br>
 
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="25" height="25" />
-  Progress
+<h2> 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="25" height="25" /> Assignments 
 </h2>
