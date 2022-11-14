@@ -1,10 +1,13 @@
 IBM-Project
 <br>
 Domain : Artificial Intelligence
+<br>
 Project: A Novel Method for Handwritten Digit Recognition System
+<br>
 Batch: B1-1M3E
+<br>
 Members:
-
+<br>
 1. Sanju S
 2. Sandeep K
 3. Vaisak P
